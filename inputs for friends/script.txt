@@ -1,2 +1,2 @@
-ffmpeg -re -f concat -safe 0 -protocol_whitelist file,http,https,tcp,tls,crypto -i "input.txt" -c:v libx264 -acodec aac -f flv "rtmp://localhost:1935/live/ALongStreamKey"
+ffmpeg -re -f concat -safe 0 -protocol_whitelist file,http,https,tcp,tls,crypto -i "input.txt" -c:v libx264 -acodec aac -f flv "rtmp://104.234.118.52/live/f8e63b2d-dc14-4bcd-905a-9cab07e1ae2d.stream?token=friends"
 // work with MovieNight https://github.com/zorchenhimer/MovieNight
